@@ -449,7 +449,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d193693acff0c49aa15b9d91142439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torqueAmount: 30
+  torqueAmount: 10
+  boostSpeed: 30
+  baseSpeed: 15
 --- !u!114 &335869079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,7 +610,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 80
   orthographic: 0
   orthographic size: 68.535194
   m_Depth: -1
@@ -747,7 +749,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: 21300000, guid: c1d46afcc2040e14b8fd44e1e3a288c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5661,7 +5663,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: 21300000, guid: e5d53de02819ea84ea6e0e0bb1928577, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11554,7 +11556,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 335869075}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 80
     OrthographicSize: 68.535194
     NearClipPlane: 0.3
     FarClipPlane: 1000
